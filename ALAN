@@ -1,0 +1,8 @@
+DECLARE
+X NUMBER := &amp;X;
+Y NUMBER := &amp;Y;
+Z NUMBER;
+BEGIN
+Z := FUN1(X,Y);
+DBMS_OUTPUT.PUT_LINE(&#39;Sum is &#39;||Z);
+END;
